@@ -9,6 +9,10 @@
     "devDependencies": {
         "nodeunit": ">0.0.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/e2ebridge/xslt4node.git"
+    },
     "author": {
         "name": "E2E Technologies Ltd",
         "email": "support@e2ebridge.com",
