@@ -1,6 +1,6 @@
 {
     "name": "xslt4node",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A XSLT package wrapping the XSLT interface of the Java API for XML Processing (JAXP)",
     "dependencies": {
         "java": ">=0.3.1",
@@ -18,8 +18,15 @@
         "email": "support@e2ebridge.com",
         "url": "http://e2ebridge.com"
     },
+    "maintainers": [
+        {
+            "name": "Peter Müssig",
+            "email": "pmuessig@e2ebridge.com"
+        }
+    ],
     "license": "MIT",
     "keywords": [
+        "xml",
         "xslt"
     ],
     "readmeFilename": "README.md",
