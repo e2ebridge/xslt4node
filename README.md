@@ -1,4 +1,4 @@
-# xslt2node
+# xslt4node
 
 A XSLT package wrapping the XSLT interface of the Java API for XML Processing (JAXP).
 
