@@ -31,6 +31,7 @@ The easiest way to install it, is via NPM:
 ## Documentation
 
 ### transform(config, callback)
+### transformSync(config) : result
 
 Executes a transformation defined by the contents of `config`.
 
