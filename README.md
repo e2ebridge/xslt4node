@@ -20,7 +20,7 @@ A XSLT package wrapping the XSLT interface of the Java API for XML Processing (J
         if (err) {
             console.log(err);
         }
-    ));
+    });
 
 ## Installation
 
