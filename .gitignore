@@ -1,3 +1,4 @@
+*.iml
 .idea/
 javaLibs/
 node_modules/
