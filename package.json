@@ -1,6 +1,6 @@
 {
     "name": "xslt4node",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "description": "A XSLT package wrapping the XSLT interface of the Java API for XML Processing (JAXP)",
     "dependencies": {
         "java": ">=0.3.1",
@@ -14,14 +14,14 @@
         "url": "https://github.com/e2ebridge/xslt4node.git"
     },
     "author": {
-        "name": "E2E Technologies Ltd",
+        "name": "Scheer E2E AG",
         "email": "support@e2ebridge.com",
         "url": "http://e2ebridge.com"
     },
     "maintainers": [
         {
             "name": "Peter Müssig",
-            "email": "pmuessig@e2ebridge.com"
+            "email": "peter.muessig@scheer-group.com"
         }
     ],
     "license": "MIT",

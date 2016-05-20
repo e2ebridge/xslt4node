@@ -61,11 +61,20 @@ __Arguments__
 
 * path {String} - _The path to an Java archive file._
 
+
+### addOptions(...options)
+
+Adds options to the JVM.
+
+__Arguments__
+
+* options {...String} - _The options to be added to the JVM._
+
 ## License
 
 (The MIT License)
 
-Copyright (c) 2014 [E2E Technologies Ltd](http://www.e2ebridge.com)
+Copyright (c) 2014 [Scheer E2E AG](http://www.e2ebridge.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -85,4 +94,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-by [E2E Technologies Ltd](http://www.e2ebridge.com)
+by [Scheer E2E AG](http://www.e2ebridge.com)

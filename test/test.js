@@ -8,6 +8,7 @@ var fs = require('fs');
 var xslt4node = require('../lib/xslt4node');
 var transform = xslt4node.transform;
 //xslt4node.addLibrary('./javaLibs/saxon9he.jar');
+//xslt4node.addOptions('-Xmx1g', '-Dgugus=foobar');
 
 var ORDER = '<order><book ISBN="10-861003-324"><title>The Handmaid\'s Tale</title><price>19.95</price></book><cd ISBN="2-3631-4"><title>Americana</title><price>16.95</price></cd></order>';
 var DISCOUNT = '<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:param name="discount"/><xsl:template match="/"><order><xsl:variable name="sub-total" select="sum(//price)"/><total><xsl:value-of select="$sub-total"/></total>15% discount if paid by: <xsl:value-of select="$discount"/></order></xsl:template></xsl:stylesheet>';
